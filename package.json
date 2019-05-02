@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "vr": "PERCY_TOKEN=69a2cf4070047a62510fc5c505f538e1c1653fbf6fc8f7b079c3299610d65480 percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levvsha/percy-testing-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levvsha/percy-testing-repo/issues"
+  },
+  "homepage": "https://github.com/levvsha/percy-testing-repo#readme",
+  "devDependencies": {
+    "@percy/cypress": "1.0.5",
+    "cypress": "3.2.0"
+  }
+}
